@@ -43,51 +43,6 @@ import Autocomplete from "@mui/material/Autocomplete";
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-const data = [
-	{
-		name: "Page A",
-		uv: 4000,
-		pv: 2400,
-		amt: 2400,
-	},
-	{
-		name: "Page B",
-		uv: 3000,
-		pv: 1398,
-		amt: 2210,
-	},
-	{
-		name: "Page C",
-		uv: 2000,
-		pv: 9800,
-		amt: 2290,
-	},
-	{
-		name: "Page D",
-		uv: 2780,
-		pv: 3908,
-		amt: 2000,
-	},
-	{
-		name: "Page E",
-		uv: 1890,
-		pv: 4800,
-		amt: 2181,
-	},
-	{
-		name: "Page F",
-		uv: 2390,
-		pv: 3800,
-		amt: 2500,
-	},
-	{
-		name: "Page G",
-		uv: 3490,
-		pv: 4300,
-		amt: 2100,
-	},
-];
-
 const layout = [
 	{ i: "0", x: 0, y: 0, w: 1, h: 2 },
 	{ i: "1", x: 1, y: 0, w: 1, h: 2 },
@@ -750,7 +705,7 @@ function App() {
 									<MenuItem value={"pie"}>Pie</MenuItem>
 									<MenuItem value={"area"}>Area</MenuItem>
 								</Select>
-								<Button onClick={(e) => addChart(e, chartCount++, shape, data)}>
+								<Button onClick={(e) => addChart(e, chartCount++, shape, [])}>
 									Add
 								</Button>
 							</FormControl>
