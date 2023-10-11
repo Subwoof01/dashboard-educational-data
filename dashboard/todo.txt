@@ -7,3 +7,6 @@
 // BUG: Fix chart (tiny) data grouping 
    Somehow fixed??-->need to figure out how it is suddenly fixed
    Probably has something to do with multiple filters/column
+
+// TODO: End of the week will have the refactoring done and the saving of the dashboard.
+   Will export all code ASAP for quality control by our development team.
