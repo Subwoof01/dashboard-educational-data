@@ -1,0 +1,9 @@
+// TODO: Adding/removing colours from a theme
+// TODO: Saving new/changed themes to database
+// TODO: Saving and loading dashboard from database
+// TODO: Setting up a cloud environment/putting dashboard online
+// TODO: Data selection on chart creation
+
+// BUG: Fix chart (tiny) data grouping 
+   Somehow fixed??-->need to figure out how it is suddenly fixed
+   Probably has something to do with multiple filters/column
